@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Student.create!(first_name: 'Barko', last_name: 'Snifferton', grade: 1)
+Student.create!(first_name: 'Meowtha', last_name: 'Prowlerton', grade: 2)
+Student.create!(first_name: 'Birdo', last_name: 'Chipperton', grade: 3)
